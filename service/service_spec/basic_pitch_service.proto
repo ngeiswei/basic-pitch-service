@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package basic_pitch_service;
+
+message Input {
+    bytes audio_file = 1;
+}
+
+message Output {
+    bytes midi_file = 1;
+}
+
+service BasicPitch {
+    rpc audio2midi(Input) returns (Output) {}
+}
