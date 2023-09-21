@@ -21,7 +21,7 @@ pip install basic-pitch
 * Clone the git repository:
 
 ```
-git clone https://github.com/singnet/basic-pitch-service.git
+git clone https://github.com/ngeiswei/basic-pitch-service.git
 cd basic-pitch-service
 ```
 
